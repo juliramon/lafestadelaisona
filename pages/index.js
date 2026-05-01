@@ -565,15 +565,15 @@ const Home = () => {
 									/>
 								))}
 							</div>
-							<div class="flex flex-wrap items-stretch mt-8">
+							<div className="flex flex-wrap items-stretch mt-8">
 								<a
 									href="https://maps.app.goo.gl/apo5mfAx4hHnChXFA"
 									title="Com arribar al pàrquing"
-									class="button button__primary inline-flex items-center w-full md:w-auto justify-center"
+									className="button button__primary inline-flex items-center w-full md:w-auto justify-center"
 									target="_blank"
 									rel="nofollow noreferrer"
 								>
-									<span class="inline-block -mb-px mr-2">
+									<span className="inline-block -mb-px mr-2">
 										Com arribar al pàrquing
 									</span>
 									<svg
@@ -601,11 +601,11 @@ const Home = () => {
 								<a
 									href="https://maps.app.goo.gl/eqqgKAKKjzQ1jPLg6"
 									title="Com arribar al Gastro Loft"
-									class="button button__primary--blue inline-flex items-center mt-3 md:mt-0 md:ml-3 justify-center w-full md:w-auto"
+									className="button button__primary--blue inline-flex items-center mt-3 md:mt-0 md:ml-3 justify-center w-full md:w-auto"
 									target="_blank"
 									rel="nofollow noreferrer"
 								>
-									<span class="inline-block -mb-px mr-2">
+									<span className="inline-block -mb-px mr-2">
 										Com arribar al Gastro Loft
 									</span>
 									<svg
@@ -691,7 +691,7 @@ const Home = () => {
 					<div className="w-full lg:w-8/12 lg:mx-auto">
 						<div className="-mx-6 flex flex-wrap items-center justify-between">
 							<div className="px-6 w-full lg:w-2/3 max-w-lg">
-								<h2 className="text-zinc-200">
+								<h2 className="text-zinc-200 max-w-[280px] sm:max-w-none">
 									Seguiu tenint dubtes? Contacteu-nos.
 								</h2>
 								<p className="mt-4 md:mt-6 text-zinc-300">
