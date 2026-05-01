@@ -150,7 +150,7 @@ const Home = () => {
 				></meta>
 				<meta
 					name="description"
-					content="El bateig i festa d'aniversari de la Isona. Us esperem a Mataró el 18 de juliol!"
+					content="Us convidem al bateig i festa d'aniversari de la Isona. Us esperem a Mataró el dissabte 18 de juliol de 2026!"
 				></meta>
 				<meta name="robots" content="Index,Follow"></meta>
 				<meta property="og:image" content="/og-image.jpg"></meta>
