@@ -1,0 +1,84 @@
+
+// Pages
+@import "pages/home"
+
+// Components
+@import "components/accordion"
+@import "components/buttons"
+@import "components/menu"
+@import "components/playlist-toast"
+
+// Vendors
+@import "vendors/tailwind"
+
+@font-face
+	font-family: 'Bricolage Grotesque'
+	src: url('../fonts/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf') format('truetype')
+	font-weight: 100 900
+	font-style: normal
+	font-display: swap
+
+@font-face
+	font-family: 'Satoshi'
+	src: url('../fonts/Satoshi-Variable.woff2') format('woff2')
+	font-weight: 100 900
+	font-style: normal
+	font-display: swap
+
+@font-face
+	font-family: 'Satoshi'
+	src: url('../fonts/Satoshi-VariableItalic.woff2') format('woff2')
+	font-weight: 100 900
+	font-style: italic
+	font-display: swap
+
+@layer base
+
+	html
+		@apply scroll-smooth
+
+	body
+		@apply text-neutral-700
+
+	h1, h2, h3, h4, h5, h6
+		@apply font-tenez
+
+	h1
+		font-size: clamp(40px, 4vw, 110px)
+		@apply leading-normal my-0 text-primary-500
+		@screen lg
+			@apply leading-none
+
+	h2
+		font-size: clamp(24px, 4vw, 40px)
+		@apply leading-normal my-0 text-primary-500
+		@screen lg
+			@apply leading-none
+
+	h3
+		font-size: clamp(18px, 4vw, 24px)
+		@apply leading-normal my-0 text-primary-500
+		@screen lg
+			@apply leading-none
+
+	h4
+		font-size: clamp(16px, 4vw, 18px)
+		@apply leading-normal my-0 text-primary-500
+		@screen lg
+			@apply leading-none
+
+	label, legend
+		@apply text-xs block mb-1 text-neutral-900
+
+	input, select, textarea
+		@apply border-b border-primary-300 text-lg text-black font-tenez block w-full resize-y
+
+	input[type=radio]
+		width: auto
+		height: auto
+
+	textarea
+		min-height: 70px
+
+	input:focus, select:focus, textarea:focus
+		@apply outline-none border-neutral-900
